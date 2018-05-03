@@ -187,8 +187,8 @@ fserv-input-radio.error, .fserv-input-text.error, .fserv-select-multiple.error, 
     border-top: none;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    width: 102% !important;
-    margin-left: -11%;
+	width: 107% !important;
+	margin-left: -12%;
 }
 
 .fserv-field .select2-container--default .select2-selection--single .select2-selection__arrow b 
@@ -203,7 +203,7 @@ fserv-input-radio.error, .fserv-input-text.error, .fserv-select-multiple.error, 
 	position: absolute;
 	top: 50%;
 	width: 0;
-	}
+}
 }
 
 
