@@ -1,0 +1,87 @@
+<script id='formservjs' src='https://iide.freshsales.io/web_forms/c0ed32a41af3c0858b8703bbe4a086cb897b8dbdecc599683b7191672a38bac8/form.js' crossorigin='anonymous'></script> 
+<style>
+.fserv-container .fserv-input-text, .fserv-input-radio, .fserv-input-checkbox, .fserv-select, .fserv-select-multiple, 
+.fserv-field .select2-container--default .select2-selection--single, 
+.fserv-field .select2-container--default .select2-selection--multiple
+{
+	width: 220% !important;
+	margin-left: -65% !important;
+	font-size: 16px;
+	font-family: lato;
+	color: #222;
+	height: 40px;
+	line-height: 20px;
+	border-radius: 5px;
+	background: #fff;
+	text-align: left;
+}
+
+.fserv-field .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    padding: 0px!important;
+}
+
+.fserv-field .select2-container--open .select2-dropdown--below {
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 88% !important;
+}
+
+.fserv-container {
+    background-color: var(--form-bg-color);
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px 5px rgba(255, 255, 255, 255);
+    font-family: Arial;
+    max-width: 500px;
+    margin: 0 auto 30px;
+    padding: 20px 0;
+    position: relative;
+}
+
+.fserv-container .fserv-input-text:focus
+{
+	border: 1px solid #27aae1!important;
+	color: #333 !important;
+}
+
+.powered-by {
+    display: none!important;
+}
+
+.fserv-field + div:not(.fserv-field) {
+    border-top: 0px solid #e5e5e5!important;
+}
+
+.fserv-container .fserv-label, .fserv-container button {
+	font-size: 16px!important;
+	font-family: lato;
+	color: #222;
+	margin-left: -65%
+}
+
+.fserv-field .select2-container--open .select2-dropdown--below,
+.fserv-field .select2-container--open .select2-dropdown--above {
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 193% !important;
+    margin-left: -57%;
+}
+
+.fserv-field .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent #888;
+    border-width: 0 4px 5px;
+    margin-left: 1030%;
+}
+
+.fserv-field .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 20px;
+    left: 145%;
+}
+
+</style>
