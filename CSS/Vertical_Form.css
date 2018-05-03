@@ -145,4 +145,67 @@ fserv-input-radio.error, .fserv-input-text.error, .fserv-select-multiple.error, 
     width: 0;
 }
 
+/*Mobile CSS */
+
+@media screen and (max-width:910px) {
+	.fserv-container .fserv-input-text, .fserv-input-radio, .fserv-input-checkbox, .fserv-select, .fserv-select-multiple, 
+	.fserv-field .select2-container--default .select2-selection--single, 
+	.fserv-field .select2-container--default .select2-selection--multiple
+	{
+		width: 135% !important;
+		margin-left: -15% !important;
+		font-size: 16px;
+		font-family: lato;
+		color: #222;
+		height: 40px;
+		line-height: 20px;
+		border-radius: 5px;
+		background: #fff;
+		text-align: left;
+	}
+
+.fserv-field label.error 
+	{
+    	color: #f00;
+    	display: inline-block;
+    	font-size: 12px !important;
+    	padding-left: 2px;
+    	padding-top: 10px;
+    	margin-left: -15%;
+	}
+
+.fserv-container .fserv-label, .fserv-container button 
+{
+	font-size: 16px!important;
+	font-family: lato;
+	color: #222!important;
+	margin-left: -15%
+}
+
+.fserv-field .select2-container--open .select2-dropdown--below, .fserv-field .select2-container--open .select2-dropdown--above {
+
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 102% !important;
+    margin-left: -11%;
+}
+
+.fserv-field .select2-container--default .select2-selection--single .select2-selection__arrow b 
+{
+	border-color: #888 transparent transparent;
+	border-style: solid;
+	border-width: 5px 4px 0;
+	height: 0;
+	left: 50%;
+	margin-left: -4px;
+	margin-top: -2px;
+	position: absolute;
+	top: 50%;
+	width: 0;
+	}
+}
+
+
+
 </style>
