@@ -5,7 +5,7 @@
 .fserv-field .select2-container--default .select2-selection--multiple
 {
 	width: 220% !important;
-	margin-left: -65% !important;
+	margin-left: -55% !important;
 	font-size: 16px;
 	font-family: lato;
 	color: #222;
@@ -39,10 +39,17 @@
     position: relative;
 }
 
+
 .fserv-container .fserv-input-text:focus
 {
 	border: 1px solid #27aae1!important;
 	color: #333 !important;
+	box-shadow: 5px 2px 10px #27aae1;
+}
+
+.fserv-container .fserv-input-text
+{
+	border: 1px solid #dbe2e8!important;
 }
 
 .powered-by {
@@ -56,8 +63,8 @@
 .fserv-container .fserv-label, .fserv-container button {
 	font-size: 16px!important;
 	font-family: lato;
-	color: #222;
-	margin-left: -65%
+	color: #222!important;
+	margin-left: -55%
 }
 
 .fserv-field .select2-container--open .select2-dropdown--below,
@@ -66,7 +73,7 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     width: 193% !important;
-    margin-left: -57%;
+    margin-left: -48%;
 }
 
 .fserv-field .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
@@ -82,6 +89,60 @@
     right: 1px;
     width: 20px;
     left: 145%;
+}
+
+button[type="submit"].fserv-button-submit {
+    background-color: #27aae1 !important;
+    width: 120%;
+    text-align: center;
+    margin-left: -8%;
+    color: #fff!important;
+}
+
+.fserv-field label.error {
+    color: #f00;
+    display: inline-block;
+    font-size: 12px !important;
+    padding-left: 2px;
+    padding-top: 10px;
+    margin-left: -55%;
+}
+
+fserv-input-radio.error, .fserv-input-text.error, .fserv-select-multiple.error, .fserv-select.error, .fserv-textarea.error {
+    border-color: #f00 !important;
+    box-shadow: 1px 2px 6px #f00;
+}
+
+.fserv-field .select2-results {
+    display: block;
+    font-size: 16px;
+    font-family: lato;
+}
+
+.fserv-container button {
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 38px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    overflow: hidden;
+    padding: 0 24px;
+    width: auto;
+    font-family: !lato important;
+}
+
+.fserv-field .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #888 transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0;
+    height: 0;
+    left: 260%!important;
+    margin-left: -4px;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    width: 0;
 }
 
 </style>
