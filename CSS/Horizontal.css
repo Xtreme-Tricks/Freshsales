@@ -2,151 +2,151 @@
 <style type="text/css"> 
 
 .fserv-container {
- max-width: 150%!important;
- background-color: rgba(255, 255, 255, 0) !important;
- box-shadow: 0 0px 0px 0px rgba(156,156,156,.07)!important;
+ 		max-width: 150%!important;
+ 		background-color: rgba(255, 255, 255, 0) !important;
+ 		box-shadow: 0 0px 0px 0px rgba(156,156,156,.07)!important;
 }
 
 .fserv-container .fserv-form {
- display: flex;
- flex-wrap: wrap;
- width: 120%;
- margin-left: -8%;
+		display: flex;
+		flex-wrap: wrap;
+		width: 120%;
+		margin-left: -8%;
 }
 
 .fserv-container .fserv-form .fserv-field+.fserv-field {
- margin-top: 5px;
+ 		margin-top: 5px;
 }
 
 .fserv-field label.error {
-    color: #f00!important;
+   		color: #f00!important;
  }
 
 
 .fserv-container .fserv-form .fserv-field+div:not(.fserv-field) { 
- border-top: 0;
- width: 100%;
- display: block;
- text-align: center;
+		border-top: 0;
+		width: 100%;
+		display: block;
+		text-align: center;
 }
 
 .fserv-container .fserv-input-text, .fserv-input-radio, .fserv-input-checkbox, .fserv-select, .fserv-select-multiple
 {
- border-radius: 5px;
- line-height: 18px;
- margin-right: 2.5px;
- font-size: 16px;
- font-family: lato;
- height: 40px!important;
- color: #000!important;
- width: 125% !important;
- background-color: rgba(255,255,255,.5)!important;
- border: #fff!important;
- text-align: center!important;
+		border-radius: 5px;
+		line-height: 18px;
+		margin-right: 2.5px;
+		font-size: 16px;
+		font-family: lato;
+		height: 40px!important;
+		color: #000!important;
+		width: 125% !important;
+		background-color: rgba(255,255,255,.5)!important;
+		border: #fff!important;
+		text-align: center!important;
 }
 
 .fserv-field .select2-container--default .select2-selection--single {
- border-radius: 5px;
- line-height: 18px;
- margin-right: 2.5px;
- font-size: 14px;
- font-family: lato;
- height: 40px!important;
- color: #000!important;
- width: 178%!important;
- background-color: rgba(255,255,255,.5)!important;
- border: #fff!important;
- text-align: center!important;
+		border-radius: 5px;
+		line-height: 18px;
+		margin-right: 2.5px;
+		font-size: 14px;
+		font-family: lato;
+		height: 40px!important;
+		color: #000!important;
+		width: 178%!important;
+		background-color: rgba(255,255,255,.5)!important;
+		border: #fff!important;
+		text-align: center!important;
 }
 
 .fserv-container .fserv-label, .fserv-container button {
- font-size: 18px!important;
- font-family: lato;
- color: #fff!important;
+		font-size: 18px!important;
+		font-family: lato;
+		color: #fff!important;
 }
 
-.fserv-field .select2-container {
-
- box-sizing: border-box;
- display: inline-block;
- margin: 0;
- position: relative;
- vertical-align: middle;
- min-width: 80%;
-
+.fserv-field .select2-container 
+{
+		box-sizing: border-box;
+		display: inline-block;
+		margin: 0;
+		position: relative;
+		vertical-align: middle;
+		min-width: 80%;
 }
 
-.fserv-container .fserv-label {
- font-weight: 700;
- margin-left: 37%;
- display: none !important;
+.fserv-container .fserv-label 
+{
+		font-weight: 700;
+		margin-left: 37%;
+		display: none !important;
 }
 
 .fserv-container .fserv-input-text:focus, .fserv-container .fserv-select-multiple:focus, .fserv-container .fserv-select:focus, .fserv-container .fserv-textarea:focus {
- border: 0px solid #e8e8e8 !important;
+		border: 0px solid #e8e8e8 !important;
  }
 
 
 .fserv-field .select2-container--open .select2-dropdown--below,
 .fserv-field .select2-container--open .select2-dropdown--above {
- border-top: none;
- border-top-left-radius: 0;
- border-top-right-radius: 0;
- width: 222px !important;
- font-size: 14px!important;
+		border-top: none;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+		width: 222px !important;
+		font-size: 14px!important;
 }
 
 .fserv-field .select2-container--default .select2-selection--single .select2-selection__arrow {
- height: 26px;
- position: absolute;
- top: 1px;
- right: -90px;
- width: 20px;
+		height: 26px;
+		position: absolute;
+		top: 1px;
+		right: -90px;
+		width: 20px;
 }
 
 .powered-by {
- display: none!important;
+ 		display: none!important;
 }
 
 
 .fserv-field .select2-results {
- display: block;
- font-size: 16px;
- font-family: lato;
- text-align: center;
+		display: block;
+		font-size: 16px;
+		font-family: lato;
+		text-align: center;
 }
 
-button[type="submit"].fserv-button-submit {
-
- background-color: #27aae100 !important;
- border: 1px solid #fff;
- font-family: lato;
- font-size: 16px !important;
+button[type="submit"].fserv-button-submit 
+{
+		background-color: #27aae100 !important;
+		border: 1px solid #fff;
+		font-family: lato;
+		font-size: 16px !important;
 }
 
 button[type="submit"].fserv-button-submit:hover {
- font-family: lato;
- font-size: 16px !important;
+		font-family: lato;
+		font-size: 16px !important;
 }
 
 .fserv-field .select2-container--default .select2-search--dropdown .select2-search__field {
-    border: 0px solid #aaa;
-    display: none;
+		border: 0px solid #aaa;
+		display: none;
 }
 
 .fserv-field .select2-container--default .select2-selection--single .select2-selection__rendered {
-    color: #000!important;
+		color: #000!important;
 }
 
 .fserv-field .select2-container--default .select2-selection--single .select2-selection__clear {
-    cursor: pointer;
-    float: right;
-    font-weight: 700;
-    display: none;
+		cursor: pointer;
+		float: right;
+		font-weight: 700;
+		display: none;
 }
 
 .fserv-field .select2-container--default .select2-search__field::placeholder, .fserv-field .select2-container--default .select2-selection--single .select2-selection__placeholder {
-    color: #4b4c4c!important;
+		color: #4b4c4c!important;
 }
 
 /*Mobile CSS */
@@ -165,51 +165,57 @@ button[type="submit"].fserv-button-submit:hover {
     		text-align: center;
 	}
 
-	.fserv-container .fserv-input-text {
-    	width: 100% !important;
-}	
+	.fserv-container .fserv-input-text 
+	{
+    		width: 100% !important;
+    }	
 
-	.fserv-container .fserv-label {
-    font-weight: 700;
-    margin-left: 0!important;
-    display: -moz-inline-box;
-}
+	.fserv-container .fserv-label 
+	{
+    		font-weight: 700;
+    		margin-left: 0!important;
+    		display: -moz-inline-box;
+	}
 
-	.fserv-field .select2-container--default .select2-selection--single {
-    	border-radius: 5px;
-    	line-height: 18px;
-    	margin-right: 2.5px;
-    	font-size: 14px!important;
-    	font-family: lato;
-    	height: 40px !important;
-    	color: #000 !important;
-    	background-color: rgba(255,255,255,.5) !important;
-    	border: #fff !important;
-    	text-align: center !important;
-   		width: 125% !important;
-}
+	.fserv-field .select2-container--default .select2-selection--single 
+	{
+    		border-radius: 5px;
+    		line-height: 18px;
+    		margin-right: 2.5px;
+    		font-size: 14px!important;
+    		font-family: lato;
+    		height: 40px !important;
+    		color: #000 !important;
+    		background-color: rgba(255,255,255,.5) !important;
+    		border: #fff !important;
+    		text-align: center !important;
+   			width: 125% !important;
+   	}
 
-.fserv-field .select2-container--open .select2-dropdown--below, 
-.fserv-field .select2-container--open .select2-dropdown--above {
-    border-top: none;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    width: 127% !important;
-    font-size: 14px!important;
-}
+	.fserv-field .select2-container--open .select2-dropdown--below, 
+	.fserv-field .select2-container--open .select2-dropdown--above 
+	{
+    		border-top: none;
+    		border-top-left-radius: 0;
+    		border-top-right-radius: 0;
+    		width: 127% !important;
+    		font-size: 14px!important;
+	}
 
-.fserv-field .select2-container--default .select2-selection--single .select2-selection__arrow {
-    height: 26px;
-    position: absolute;
-    top: 1px;
-    right: -50px;
-    width: 20px;
-}
+	.fserv-field .select2-container--default .select2-selection--single .select2-selection__arrow 
+	{
+    		height: 26px;
+    		position: absolute;
+    		top: 1px;
+    		right: -50px;
+    		width: 20px;
+    }
 
-.fserv-field .select2-container--default .select2-search--dropdown .select2-search__field {
-    border: 0px solid #aaa;
-    display: none;
-}
+	.fserv-field .select2-container--default .select2-search--dropdown .select2-search__field 
+	{
+    		border: 0px solid #aaa;
+    		display: none;
+    }
 }
 
 
