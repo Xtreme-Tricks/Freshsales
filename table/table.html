@@ -1,0 +1,197 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Table Style</title>
+	<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; width=device-width;">
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  background-color: #3e94ec;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+div.table-title {
+   display: block;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+}
+
+.table-title h3 {
+   color: #fafafa;
+   font-size: 30px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: 'Open Sans', sans-serif;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+   text-transform:uppercase;
+}
+
+
+/*** Table Styles **/
+
+.table-fill {
+  background: white;
+  border-radius: 5px;
+  border-collapse: collapse;
+  height: 520px;
+  margin: auto;
+  max-width: 1500px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+ 
+th {
+  color:#D5DDE5;;
+  background:#27aae1;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 24px;
+  text-align:center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+ 
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+  
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+  text-align: center;
+}
+ 
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+}
+ 
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+ 
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+ 
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:center;
+  vertical-align:middle;
+  font-weight: 400;
+  font-size:18px;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left {
+  text-align: center;
+}
+
+th.text-center {
+  text-align: center;
+}
+
+th.text-right {
+  text-align: right;
+}
+
+td.text-left {
+  text-align: center;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
+}
+
+	</style>
+</head>
+
+<body>
+<div class="table-title">
+</div>
+<table class="table-fill">
+<thead>
+<tr>
+<th class="text-center"><b>Batch</b></th>
+<th class="text-center"><b>Date</b></th>
+<th class="text-center"><b>Time</b></th>
+<th class="text-center"><b>Campus</b></th>
+<th class="text-center"><b>Days</b></th>
+</tr>
+</thead>
+<tbody class="table-hover">
+<tr>
+<td class="text-center">Weekday Batch</td>
+<td class="text-center">26th June 2018</td>
+<td class="text-center">5 PM - 8 PM</td>
+<td class="text-center">Jai Hind College, Churchgate</td>
+<td class="text-center">Tu, Th, Sa</td>
+</tr>
+<tr>
+<td class="text-center">Weekday Batch</td>
+<td class="text-center">3rd July 2018</td>
+<td class="text-center">5 PM - 8 PM</td>
+<td class="text-center">IIDE Campus, Andheri</td>
+<td class="text-center">Tu, Th, Sa</td>
+</tr>
+<tr>
+<td class="text-center">Weekday Batch</td>
+<td class="text-center">9th July 2018</td>
+<td class="text-center">5 PM - 8 PM</td>
+<td class="text-center">Jai Hind College, Churchgate</td>
+<td class="text-center">Mo, We, Fr</td>
+</tr>
+<tr>
+<td class="text-center">Weekend Batch</td>
+<td class="text-center">1st Sept 2018</td>
+<td class="text-center">4 PM - 8 PM</td>
+<td class="text-center">IIDE Campus, Andheri</td>
+<td class="text-center">Sa, Su</td>
+</tr>
+</tbody>
+</table>
+  
+
+  </body>
