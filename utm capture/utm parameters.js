@@ -83,24 +83,7 @@ WebForm.$('<input>').attr({
 
  }).appendTo('.fs-webform-container form');
 
-
-
-
- WebForm.$('<input>').attr({
-
- type: 'hidden',
-
- name: 'lead[medium]',
-
- value: getQueryVariable('utm_medium')
-
- }).appendTo('.fs-webform-container form');
-
-
-
-
  },
-
 
  afterSubmit: function(event, data, error) {
 
