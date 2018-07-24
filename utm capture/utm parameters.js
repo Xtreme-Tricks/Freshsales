@@ -26,8 +26,8 @@ beforeSubmit: function() {
 
 
 //Add this for medium/Campaign/Source just like UTM param field.
-	 
-	 
+ 
+ 
 WebForm.$('<input>').attr({
 
  type: 'hidden',
@@ -73,7 +73,7 @@ WebForm.$('<input>').attr({
  }).appendTo('.fs-webform-container form');
 
 
-  WebForm.$('<input>').attr({
+ WebForm.$('<input>').attr({
 
  type: 'hidden',
 
@@ -83,7 +83,34 @@ WebForm.$('<input>').attr({
 
  }).appendTo('.fs-webform-container form');
 
+
+ WebForm.$('<input>').attr({
+
+ type: 'hidden',
+
+ name: 'lead[custom_field][cf_utm_parameters]',
+
+ value:"Organic - SDM"
+
+ }).appendTo('.fs-webform-container form');
+
+
+
+ WebForm.$('<input>').attr({
+
+ type: 'hidden',
+
+ name: 'lead[medium]',
+
+ value: getQueryVariable('utm_medium')
+
+ }).appendTo('.fs-webform-container form');
+
+
+
+
  },
+
 
  afterSubmit: function(event, data, error) {
 
